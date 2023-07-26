@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- This is made by { saurabh shingare the Great} -->
+  <title>Adidas Ivy park </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+  .slideanim {
+    visibility: hidden;
+  }
+
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage"><b>Adidas</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#Category">Category</a></li>
+          <li><a href="#Popular">Popular now</a></li>
+          <li><a href="#best">Find Your Fit</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <b>
+      <h1>Adidas</h1>
+    </b>
+    <p>STORIES, STYLE, AND SPORTING GOODS AT ADIDAS, SINCE 1949</p>
+    <form>
+      <div class="input-group">
+        <input type="email" class="form-control" size="50" placeholder="What are you looking for" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-danger">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+
+  <!-- Container (Services Section) -->
+  <div id="Category" class="container-fluid text-center">
+    <h2>Whats's New</h2>
+    <h4>Popular Now</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-king logo-small"></span>
+        <h4>MEN</h4>
+        <p>Men's Originals</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-queen logo-small"></span>
+        <h4>WOMEN</h4>
+        <p>Women's Originals</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-pawn logo-small"></span>
+        <h4>KID</h4>
+        <p>Kid Exclusives</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>HOLIDAY</h4>
+        <p>Ultraboost 22</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-usd logo-small"></span>
+        <h4>3 STRIPE LIFE</h4>
+        <p>Collection by MClareen Stanley</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-flash logo-small"></span>
+        <h4 style="color:#303030;">SPORT ACCESSORIES</h4>
+        <p>Adidas Originals</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div id="Popular" class="container-fluid  bg-grey">
+    <h2 class="text-center">New arrivals</h2>
+    <h4 class="text-center">What's trending</h4>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img
+            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/basketball-fw21-strength-mh-teaser_tcm221-817727.jpg"
+            alt="Paris" width="400" height="220">
+          <p class=" tag">Say Hello to Ultraboost22</p>
+          <p class="cmt-txt">
+            Lace up with supreme energy return.
+
+
+            SHOP NOW</p>
+          <p class="text-start shp-t">SHOP NOW</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img
+            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/orig-ss22-adicolor-dec-jan-tc-carousel-mens_tcm221-826042.jpg"
+            alt="New York" width="400" height="300">
+          <p class="tag"><strong>Adicolour All day.</strong></p>
+          <p class="cmt-txt">Play with color and lean into comfort with new adicolor styles.
+
+
+            SHOP NOW</p>
+          <p class="text-start shp-t">SHOP NOW</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img
+            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-fw21-forum-mh-teaser_tcm221-817728.jpg"
+            alt="San Francisco" width="400" height="300">
+          <p class="tag"> <strong>Forum Size Guide</strong></p>
+          <p class="cmt-txt">Curious about adidas Forum sizing? Learn about how the iconic sneakers fit before even
+            trying them on.
+
+
+            FIND YOUR FIT</p>
+          <p class="text-start shp-t">SHOP NOW</p>
+        </div>
+      </div>
+    </div><br>
+
+    <h2>What our customers say</h2>
+    <div id="Find" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"This company is the best. I am so happy with the service they provided!"<br><span>Michael Roe,
+              California, TY consultancy </span></h4>
+        </div>
+        <div class="item">
+          <h4>"One word... WOW!!"<br><span>John Doe, Brazil, Rep Inc</span></h4>
+        </div>
+        <div class="item">
+          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Washington , FriendsAlot</span>
+          </h4>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Container (Pricing Section) -->
+  <div id="best" class="container-fluid">
+    <div>
+      <h2 class="text-center">Find your fit</h2>
+      <h4 class="text-center">END OF YEAR SALE: UP TO 40% OFF SELECT STYLES
+      </h4>
+    </div>
+    <div class="row slideanim">
+
+      <div class="col-sm-3">
+        <div class="card" style="position: relative;">
+          <img
+            src="https://assets.adidas.com/images/w_280,f_auto,q_auto/c8493efffb944bbf92be3ce020fb3908_9366/Messi_10_Inter_Miami_CF_22-23_Home_Authentic_Jersey_Pink_JE9705_02_laydown.jpg"
+            class="card-img-top" alt="...">
+          <span class="price">$160</span>
+          <div class="card-body">
+            <p class="card-text " style="margin: 0 0 0;">Messi #10 Inter Miami CF 22/23 Home Authentic Jersey</p>
+            <span class="cat">Men's soccer</span><br>
+            <span>Men's pre-order</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="position: relative;">
+          <img
+            src="https://assets.adidas.com/images/w_280,f_auto,q_auto/c85d6414872247618a1f2ab3d784f241_9366/adidas_Lounge_Cross-Body_Bag_White_HY0750_01_standard.jpg"
+            class="card-img-top" alt="...">
+          <span class="price">$10</span>
+          <div class="card-body">
+            <p class="card-text " style="margin: 0 0 0;"> 11 ester United 23/24 Away Authentic Jersey ssfafaf sfasfsf
+            </p>
+            <span class="cat">Men's soccer</span><br>
+            <span> pre-order</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="position: relative;">
+          <img
+            src="https://assets.adidas.com/images/w_280,f_auto,q_auto/3392fdd77ebc49b68f12afce011dbe15_9366/Adicolor_Classics_Trefoil_Tank_Top_Grey_IM2082_21_model.jpg"
+            class="card-img-top" alt="...">
+          <span class="price">$140</span>
+          <div class="card-body">
+            <p class="card-text " style="margin: 0 0 0;">Essentials Piqué 3-Stripes Training Shorts Essentials Piqué
+              3-Stripes Training Shorts</p>
+            <span class="cat">Men's soccer</span><br>
+            <span>Men's pre-order</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="position: relative;">
+          <img
+            src="https://assets.adidas.com/images/w_280,f_auto,q_auto/1834fee86b5f46229040ff51128892de_9366/Daily_3.0_Shoes_White_IF7488_01_standard.jpg"
+            class="card-img-top" alt="...">
+          <span class="price">$60</span>
+          <div class="card-body">
+            <p class="card-text " style="margin: 0 0 0;">Messi #10 Inter Miami CF 22/23 Home Authentic shoes</p>
+            <span class="cat">Men's soccer</span><br>
+            <span>Men's pre-order</span>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- Container (About Section) -->
+  <div id="About" class="container-fluid" style="background-color: #f5f5e5;">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <h1 class="h1-h">
+          Stories, style, and sporting goods at adidas, since 1949
+        </h1>
+        <p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us
+          together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest
+          technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer
+          kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes
+          are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race,
+          and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to
+          change the world.
+        </p>
+        <p>adidas is about more than sportswear and workout clothes. We partner with the best in the industry to
+          co-create. This way we offer our fans the sporting goods, style and clothing that match the athletic needs,
+          while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And
+          we think about the impact we have on our world.</p>
+      </div>
+      <div class="col-sm-6">
+        <h1 class="h1-h">
+          Workout clothes, for <br> any sport
+        </h1>
+        <p>Adidas designs for athletes of all kinds. Creators who love to change the game. People who challenge
+          conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel
+          that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes
+          who play just as hard as the men. From low to high support. Maximum comfort. We design, innovate and iterate.
+          We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by
+          retro workout clothes, creating new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits.
+          From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages
+          around the world.</p>
+        <p>
+          Through our collections we blur the borders between high fashion and high performance. Like our adidas by
+          Stella McCartney athletic clothing collection – designed to look the part inside and outside of the gym. Or
+          some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are
+          constantly changing. Becoming more and more versatile. And adidas designs with that in mind.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div id="Contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Lets go</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image of location/map -->
+  <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
+
+  <footer class="container-fluid text-center" style="background-color: #282c31;">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p class="text-warning">2021 adidas America Inc. <a href="https://www.adidas.com/us"
+        title="Visit Adidas">www.adidas.com </p><br>
+    <p> Also Do visit <a href="http://https://www.reebok.com/us "></a></a></p>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    })
+  </script>
+
+</body>
+
+</html>
